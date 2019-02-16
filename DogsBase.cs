@@ -39,8 +39,6 @@ namespace DogChallenge {
             Dog myDog = new Dog("Lileu", "Dale", 4, Gender.female);
             myDog.Bark(1);
             Console.WriteLine(myDog.GetTag());
-
-            Console.ReadLine();
         }
     }
 }
